@@ -1,7 +1,7 @@
 <?php
-namespace eStadium;
+namespace eStadium\Baseball;
 
-class BaseballXmlFeedParser
+class XmlFeedParser
 {
     private $feed;
 
@@ -54,6 +54,15 @@ class BaseballXmlFeedParser
     public function getDate()
     {
         return $this->feed->venue->attributes()['date'];
+    }
+
+    public function getStarters()
+    {
+        $teams = array();
+        foreach ($this->feed->team[0]->starters as $player)
+        {
+
+        }
     }
 }
 ?>

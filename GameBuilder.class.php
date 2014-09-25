@@ -6,15 +6,18 @@
  * Time: 2:57 AM
  */
 
-namespace eStadium;
+namespace eStadium\Baseball;
 
-require_once 'IBaseballGameBuilder.interface.php';
-require_once 'BaseballGame.class.php';
+require_once 'IGameBuilder.interface.php';
+require_once 'Game.class.php';
+require_once 'Venue.class.php';
 
-class BaseballGameBuilder implements IBaseballGameBuilder
+
+class GameBuilder implements IBaseballGameBuilder
 {
     private $feedParser;
     private $baseballGame;
+    private $venue;
 
     public function __construct($feedParser)
     {
@@ -57,17 +60,17 @@ class BaseballGameBuilder implements IBaseballGameBuilder
         $this->baseballGame->setScheduledInning($scheduledInning);
     }
 
-   public function build()
-   {
-       $feedParser = $this->feedParser;
+    public function build()
+    {
+        $feedParser = $this->feedParser;
 
-       $this->setVisitor($feedParser->getVisitorName());
-       $this->setHome($feedParser->getHomeName());
-       $this->setLocation($feedParser->getLocation());
-       $this->setDate($feedParser->getDate());
-       $this->setStadium($feedParser->getStadium());
-       $this->setScheduledInning($feedParser->getScheduledInning());
-       $this->setStartTime($feedParser->getStartTime());
-       return $this->baseballGame;
-   }
-} 
+        $this->setVisitor($feedParser->getVisitorName());
+        $this->setHome($feedParser->getHomeName());
+        $this->setLocation($feedParser->getLocation());
+        $this->setDate($feedParser->getDate());
+        $this->setStadium($feedParser->getStadium());
+        $this->setScheduledInning($feedParser->getScheduledInning());
+        $this->setStartTime($feedParser->getStartTime());
+        return $this->baseballGame;
+    }
+}
