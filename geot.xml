@@ -1,0 +1,699 @@
+<bsgame source="TAS Baseball/Softball" version="1.3.6" generated="6/1/2014">
+  <gametracker gameid="1348218"/>
+  <venue gameid="P" visid="WASH" homeid="GT" visname="Washington" homename="Georgia Tech" date="6/1/2014" location="Oxford, Miss." stadium="Swayze Field" duration="3:18" attend="0" leaguegame="N" neutralgame="Y" nitegame="Y" start="7:07 pm" schedinn="9">
+    <umpires hp="Mike Cerra" first="Billy van Raaphorst" second="Tim Catton" third="Harry Greer"/>
+    <notes>
+      <note text="Game: livegame"/>
+    </notes>
+    <rules batters="9,9" usedh="Y"/>
+  </venue>
+  <team vh="V" id="WASH" name="Washington" code="WASH" rank="14" neutralgame="Y" record="41-16-1">
+    <linescore line="0,0,2,0,0,2,0,0,0" runs="4" hits="8" errs="1" lob="7">
+      <lineinn inn="1" score="0"/>
+      <lineinn inn="2" score="0"/>
+      <lineinn inn="3" score="2"/>
+      <lineinn inn="4" score="0"/>
+      <lineinn inn="5" score="0"/>
+      <lineinn inn="6" score="2"/>
+      <lineinn inn="7" score="0"/>
+      <lineinn inn="8" score="0"/>
+      <lineinn inn="9" score="0"/>
+    </linescore>
+    <starters>
+      <starter spot="1" name="Bishop" uni="7" pos="cf"/>
+      <starter spot="2" name="Ely" uni="41" pos="2b"/>
+      <starter spot="3" name="Wolfe" uni="10" pos="rf"/>
+      <starter spot="4" name="Berry" uni="36" pos="1b"/>
+      <starter spot="5" name="Mitsui" uni="20" pos="dh"/>
+      <starter spot="6" name="Pehl" uni="17" pos="lf"/>
+      <starter spot="7" name="C. Baker" uni="6" pos="3b"/>
+      <starter spot="8" name="Guinn" uni="26" pos="c"/>
+      <starter spot="9" name="Forgione" uni="9" pos="ss"/>
+      <starter spot="10" name="Fisher" uni="30" pos="p"/>
+    </starters>
+    <batords>
+      <batord spot="1" name="Bishop" uni="7" pos="cf"/>
+      <batord spot="2" name="Ely" uni="41" pos="2b"/>
+      <batord spot="3" name="Wolfe" uni="10" pos="1b"/>
+      <batord spot="4" name="Meggs" uni="4" pos="rf"/>
+      <batord spot="5" name="Mitsui" uni="20" pos="dh"/>
+      <batord spot="6" name="London" uni="22" pos="lf"/>
+      <batord spot="7" name="C. Baker" uni="6" pos="3b"/>
+      <batord spot="8" name="Rei" uni="11" pos="c"/>
+      <batord spot="9" name="Forgione" uni="9" pos="ss"/>
+      <batord spot="10" name="Dunlap" uni="45" pos="p"/>
+    </batords>
+    <totals>
+      <hitting ab="29" r="4" h="8" rbi="4" hr="1" bb="6" so="8" ibb="1" kl="3" cs="3" sh="3" ground="10" fly="6"/>
+      <fielding po="27" a="11" e="1" indp="1"/>
+      <hsitsummary rchfc="1" ground="10" fly="6" w2outs="2,10" wrunners="4,11" wrbiops="2,8" vsleft="2,8" leadoff="3,9" rbi3rd="2,3" wloaded="1,4" advops="9,15" pinchhit="0,1" adv="7" lob="7" rbi-2out="2"/>
+      <pitching ip="9.0" h="5" r="2" er="1" bb="4" so="6" bf="37" ab="32" double="2" hbp="1" kl="1" ibb="0" gdp="1" fly="9" ground="11"/>
+      <psitsummary fly="9" ground="11" leadoff="4,9" wrunners="2,15" vsleft="1,5" w2outs="1,9" pitches="125" strikes="0"/>
+    </totals>
+    <player name="Bishop, Braden" shortname="Bishop" code="" uni="7" gp="1" gs="1" spot="1" pos="cf" atpos="cf" bats="R" throws="R" class="SO">
+      <hitting ab="3" r="1" h="2" rbi="0" bb="1" cs="1" sh="1" ground="2"/>
+      <hitseason ab="212" r="43" h="65" rbi="27" so="30" bb="12" double="8" triple="2" sb="21" cs="3" sh="13" sf="3" e="2" avg=".307" vsleft=".329" vsright=".295" w2outs=".283" wrunners=".370" wrbiops=".328" leadoff=".414" rbi3rd=".667" loaded=".364" pinchhit="-" rbi-2out="9"/>
+      <fielding po="3" a="0" e="0"/>
+      <hsitsummary ground="2" w2outs="0,1" wrunners="1,2" wrbiops="0,1" vsleft="1,1" leadoff="1,1" advops="2,3" adv="1" lob="1"/>
+    </player>
+    <player name="Ely, Andrew" shortname="Ely" code="" uni="41" gp="1" gs="1" spot="2" pos="2b" atpos="2b" bats="L" throws="R" class="JR">
+      <hitting ab="3" r="1" h="1" rbi="2" hr="1" sh="2" ground="3" fly="1"/>
+      <hitseason ab="202" r="38" h="61" rbi="34" so="31" bb="28" double="8" triple="3" hr="3" sb="2" cs="1" sh="26" sf="2" e="2" avg=".302" vsleft=".264" vsright=".323" w2outs=".321" wrunners=".383" wrbiops=".451" leadoff=".370" rbi3rd=".733" loaded=".667" pinchhit="-" rbi-2out="15"/>
+      <fielding po="0" a="0" e="0"/>
+      <hsitsummary ground="3" fly="1" w2outs="1,2" wrunners="1,1" vsleft="0,1" leadoff="0,1" advops="3,3" adv="3" rbi-2out="2"/>
+    </player>
+    <player name="Wolfe, Brian" shortname="Wolfe" code="" uni="10" gp="1" gs="1" spot="3" pos="rf/1b" atpos="1b" bats="L" throws="L" class="SR">
+      <hitting ab="2" r="1" h="1" rbi="0" bb="2" ibb="1" cs="1" ground="1"/>
+      <hitseason ab="175" r="32" h="62" rbi="35" so="26" bb="14" double="10" hr="5" sb="2" cs="3" sh="7" sf="3" avg=".354" vsleft=".237" vsright=".414" w2outs=".313" wrunners=".398" wrbiops=".417" leadoff=".383" rbi3rd=".750" loaded=".429" pinchhit=".714" rbi-2out="13"/>
+      <fielding po="2" a="0" e="0"/>
+      <hsitsummary ground="1" w2outs="0,1"/>
+    </player>
+    <player name="Meggs, Jack" shortname="Meggs" code="" uni="4" gp="1" spot="3" sub="1" pos="rf" atpos="rf" bats="L" throws="L" class="FR">
+      <hitting ab="0" r="0" h="0" rbi="0"/>
+      <hitseason ab="69" r="13" h="13" rbi="8" so="7" bb="9" double="3" cs="3" sh="6" sf="1" e="1" avg=".188" vsleft=".200" vsright=".186" w2outs=".138" wrunners=".132" wrbiops=".192" leadoff=".438" rbi3rd=".500" loaded=".000" pinchhit=".625" rbi-2out="3"/>
+      <fielding po="0" a="0" e="0"/>
+      <hsitsummary/>
+    </player>
+    <player name="Berry, Branden" shortname="Berry" code="" uni="36" gp="1" gs="1" spot="4" pos="1b" bats="R" throws="R" class="SO">
+      <hitting ab="3" r="1" h="0" rbi="0" bb="1" so="1" fly="2"/>
+      <hitseason ab="159" r="26" h="42" rbi="17" so="36" bb="16" double="9" hr="1" sb="2" cs="1" sh="1" sf="3" e="3" avg=".264" vsleft=".279" vsright=".255" w2outs=".250" wrunners=".247" wrbiops=".250" leadoff=".282" rbi3rd=".615" loaded=".286" pinchhit=".000" rbi-2out="3"/>
+      <fielding po="11" a="0" e="0" indp="1"/>
+      <hsitsummary fly="2" wrunners="0,1" wrbiops="0,1" vsleft="0,1" leadoff="0,2" rbi3rd="0,1" wloaded="0,1" advops="1,2"/>
+    </player>
+    <player name="Mitsui, Trevor" shortname="Mitsui" code="" uni="20" gp="1" gs="1" spot="5" pos="dh" atpos="dh" bats="R" throws="R" class="JR">
+      <hitting ab="4" r="0" h="1" rbi="0" so="2" fly="1"/>
+      <hitseason ab="193" r="35" h="63" rbi="32" so="37" bb="13" double="9" hr="5" sb="1" cs="1" sf="4" avg=".326" vsleft=".357" vsright=".309" w2outs=".313" wrunners=".371" wrbiops=".379" leadoff=".380" rbi3rd=".857" loaded=".400" pinchhit="-" rbi-2out="16"/>
+      <fielding po="0" a="0" e="0"/>
+      <hsitsummary fly="1" w2outs="0,1" wrunners="1,2" wrbiops="1,2" vsleft="0,1" wloaded="0,1" advops="1,2" lob="3"/>
+    </player>
+    <player name="Pehl, Robert" shortname="Pehl" code="" uni="17" gp="1" gs="1" spot="6" pos="lf" bats="R" throws="R" class="JR">
+      <hitting ab="4" r="0" h="2" rbi="1" so="2" kl="1"/>
+      <hitseason ab="216" r="27" h="57" rbi="36" so="34" bb="18" double="13" triple="1" hr="5" sb="2" cs="1" sh="2" sf="3" avg=".264" vsleft=".270" vsright=".261" w2outs=".234" wrunners=".313" wrbiops=".356" leadoff=".394" rbi3rd=".700" loaded=".300" pinchhit="-" rbi-2out="9"/>
+      <fielding po="0" a="0" e="0"/>
+      <hsitsummary w2outs="1,2" wrunners="1,1" wrbiops="1,1" vsleft="0,1" leadoff="0,1" rbi3rd="1,1" wloaded="1,1" advops="1,1"/>
+    </player>
+    <player name="London, Kyle" shortname="London" code="" uni="22" gp="1" spot="6" sub="1" pos="lf" atpos="lf" bats="R" throws="R" class="FR">
+      <hitting ab="0" r="0" h="0" rbi="0"/>
+      <hitseason ab="18" r="12" h="4" rbi="3" so="3" bb="4" sb="1" sh="4" avg=".222" vsleft=".182" vsright=".286" w2outs=".286" wrunners=".364" wrbiops=".444" leadoff=".500" rbi3rd=".500" loaded=".000" pinchhit=".000" rbi-2out="2"/>
+      <fielding po="0" a="0" e="0"/>
+      <hsitsummary/>
+    </player>
+    <player name="Baker, Chris" shortname="C. Baker" code="" uni="6" gp="1" gs="1" spot="7" pos="3b" atpos="3b" bats="R" throws="R" class="FR">
+      <hitting ab="4" r="0" h="0" rbi="1" so="2" kl="1" ground="2"/>
+      <hitseason ab="35" r="9" h="8" rbi="7" so="9" bb="1" double="2" sb="1" sh="3" e="5" avg=".229" vsleft=".385" vsright=".136" w2outs=".222" wrunners=".211" wrbiops=".267" leadoff=".222" rbi3rd=".571" loaded=".000" pinchhit=".667" rbi-2out="3"/>
+      <fielding po="2" a="7" e="0" indp="1"/>
+      <hsitsummary rchfc="1" ground="2" w2outs="0,1" wrunners="0,2" wrbiops="0,1" vsleft="0,1" leadoff="0,1" rbi3rd="1,1" wloaded="0,1" advops="1,2" adv="3" lob="1"/>
+    </player>
+    <player name="Guinn, Parker" shortname="Guinn" code="" uni="26" gp="1" gs="1" spot="8" pos="c" bats="R" throws="R" class="JR">
+      <hitting ab="1" r="0" h="0" rbi="0" bb="1" fly="1"/>
+      <hitseason ab="17" r="2" h="4" rbi="3" so="4" bb="6" sb="1" sh="2" avg=".235" vsleft=".429" vsright=".100" w2outs=".143" wrunners=".333" wrbiops=".375" leadoff=".375" rbi3rd="1.000" loaded=".000" pinchhit="-" rbi-2out="2"/>
+      <fielding po="3" a="0" e="0"/>
+      <hsitsummary fly="1" leadoff="0,1"/>
+    </player>
+    <player name="Rei, Austin" shortname="Rei" code="" uni="11" gp="1" spot="8" sub="1" pos="ph/c" atpos="c" bats="R" throws="R" class="SO">
+      <hitting ab="2" r="0" h="0" rbi="0" ground="1" fly="1"/>
+      <hitseason ab="149" r="24" h="47" rbi="28" so="36" bb="21" double="10" triple="2" hr="2" sb="1" sh="7" sf="1" e="6" avg=".315" vsleft=".411" vsright=".258" w2outs=".320" wrunners=".354" wrbiops=".396" leadoff=".528" rbi3rd=".714" loaded=".500" pinchhit=".333" rbi-2out="10"/>
+      <fielding po="4" a="0" e="0"/>
+      <hsitsummary ground="1" fly="1" w2outs="0,2" wrunners="0,1" wrbiops="0,1" vsleft="0,1" advops="0,1" pinchhit="0,1" lob="2"/>
+    </player>
+    <player name="Forgione, Erik" shortname="Forgione" code="" uni="9" gp="1" gs="1" spot="9" pos="ss" atpos="ss" bats="B" throws="R" class="JR">
+      <hitting ab="3" r="0" h="1" rbi="0" bb="1" so="1" kl="1" cs="1" ground="1"/>
+      <hitseason ab="169" r="27" h="39" rbi="22" so="24" bb="16" double="8" triple="1" sb="5" cs="5" sh="12" e="9" avg=".231" vsleft=".241" vsright=".226" w2outs=".213" wrunners=".345" wrbiops=".371" leadoff=".321" rbi3rd=".615" loaded=".500" pinchhit="-" rbi-2out="11"/>
+      <fielding po="1" a="3" e="1"/>
+      <hsitsummary ground="1" wrunners="0,1" wrbiops="0,1" vsleft="1,1" leadoff="2,2" advops="0,1"/>
+    </player>
+    <player name="Fisher, Jared" shortname="Fisher" code="" uni="30" gp="1" gs="1" spot="10" pos="p" bats="L" throws="R" class="JR">
+      <hitting ab="0" r="0" h="0" rbi="0"/>
+      <hitseason avg="-" vsleft="-" vsright="-" w2outs="-" wrunners="-" wrbiops="-" leadoff="-" rbi3rd="-" loaded="-" pinchhit="-" rbi-2out="0"/>
+      <fielding po="1" a="1" e="0"/>
+      <hsitsummary/>
+      <pitching appear="1" win="4-1" gs="1" ip="4.1" h="3" r="2" er="1" bb="4" so="2" bf="20" ab="16" double="1" ibb="0" gdp="1" pitches="67" strikes="39" fly="4" ground="6"/>
+      <pchseason era="4.07" ip="95.0" h="91" r="49" er="43" bb="47" so="60" double="17" triple="5" hr="3" wp="5" bk="1" hbp="5" win="6" loss="4" save="0" vsleft=".293" vsright=".236" w2outs=".220" wrunners=".296" leadoff=".381"/>
+      <psitsummary fly="4" ground="6" leadoff="3,5" wrunners="1,8" vsleft="1,3" w2outs="0,3" pitches="67" strikes="39"/>
+    </player>
+    <player name="Choate, Brandon" shortname="Choate" code="" uni="16" gp="1" spot="10" sub="1" pos="p" bats="R" throws="R" class="JR">
+      <hitting ab="0" r="0" h="0" rbi="0"/>
+      <hitseason avg="-" vsleft="-" vsright="-" w2outs="-" wrunners="-" wrbiops="-" leadoff="-" rbi3rd="-" loaded="-" pinchhit="-" rbi-2out="0"/>
+      <fielding po="0" a="0" e="0"/>
+      <hsitsummary/>
+      <pitching appear="2" ip="0.2" h="0" r="0" er="0" bb="0" so="0" bf="2" ab="2" pitches="8" strikes="5" fly="1" ground="1" inheritr="1" inherits="0"/>
+      <pchseason era="2.54" ip="28.1" h="23" r="11" er="8" bb="13" so="24" double="1" triple="1" hr="1" wp="4" hbp="2" win="3" loss="1" save="0" vsleft=".273" vsright=".183" w2outs=".184" wrunners=".222" leadoff=".292"/>
+      <psitsummary fly="1" ground="1" wrunners="0,2" w2outs="0,1" pitches="8" strikes="5"/>
+    </player>
+    <player name="Dunlap, Trevor" shortname="Dunlap" code="" uni="45" gp="1" spot="10" sub="2" pos="p" atpos="p" bats="R" throws="R" class="SR">
+      <hitting ab="0" r="0" h="0" rbi="0"/>
+      <hitseason e="1" avg="-" vsleft="-" vsright="-" w2outs="-" wrunners="-" wrbiops="-" leadoff="-" rbi3rd="-" loaded="-" pinchhit="-" rbi-2out="0"/>
+      <fielding po="0" a="0" e="0"/>
+      <hsitsummary/>
+      <pitching appear="3" save="6" ip="4.0" h="2" r="0" er="0" bb="0" so="4" bf="15" ab="14" double="1" hbp="1" kl="1" pitches="50" strikes="36" fly="4" ground="4" inheritr="0" inherits="0"/>
+      <pchseason era="3.37" ip="58.2" h="48" r="23" er="22" bb="23" so="49" double="6" triple="1" hr="3" wp="2" bk="2" hbp="1" win="2" loss="2" save="5" vsleft=".204" vsright=".244" w2outs=".273" wrunners=".242" leadoff=".353"/>
+      <psitsummary fly="4" ground="4" leadoff="1,4" wrunners="1,5" vsleft="0,2" w2outs="1,5" pitches="50" strikes="36"/>
+    </player>
+    <player name="Anderson, Garrett" shortname="Anderson" code="" uni="3" gp="0" spot="0" pos="" bats="R" throws="R" class="FR">
+    </player>
+    <player name="Ballowe, Will" shortname="Ballowe" code="" uni="15" gp="0" spot="0" pos="" bats="L" throws="L" class="SO">
+    </player>
+    <player name="Bevacqua, Mitch" shortname="Bevacqua" code="" uni="23" gp="0" spot="0" pos="" bats="R" throws="R" class="FR">
+    </player>
+    <player name="Brigham, Jeff" shortname="Brigham" code="" uni="34" gp="0" spot="0" pos="" bats="R" throws="R" class="JR">
+    </player>
+    <player name="Cushing, Josh" shortname="Cushing" code="" uni="12" gp="0" spot="0" pos="" bats="R" throws="R" class="FR">
+    </player>
+    <player name="Davis, Tyler" shortname="Davis" code="" uni="19" gp="0" spot="0" pos="" bats="R" throws="R" class="JR">
+    </player>
+    <player name="Fredendall, Joshua" shortname="Fredendall" code="" uni="43" gp="0" spot="0" pos="" bats="R" throws="R" class="SR">
+    </player>
+    <player name="Gaul, Mack" shortname="Gaul" code="" uni="33" gp="0" spot="0" pos="" bats="L" throws="L" class="FR">
+    </player>
+    <player name="Baker, Henry" shortname="H. Baker" code="" uni="32" gp="0" spot="0" pos="" bats="L" throws="L" class="FR">
+    </player>
+    <player name="Hardy, Alex" shortname="Hardy" code="" uni="51" gp="0" spot="0" pos="" bats="R" throws="R" class="FR">
+    </player>
+    <player name="Hendrickson, Duncan" shortname="Hendrickson" code="" uni="29" gp="0" spot="0" pos="" bats="R" throws="R" class="SO">
+    </player>
+    <player name="Henning, Austin" shortname="Henning" code="" uni="37" gp="0" spot="0" pos="" bats="R" throws="R" class="FR">
+    </player>
+    <player name="Jackson, Matt" shortname="Jackson" code="" uni="2" gp="0" spot="0" pos="" bats="R" throws="R" class="SO">
+    </player>
+    <player name="Kim, Dae Yang" shortname="Kim" code="" uni="25" gp="0" spot="0" pos="" bats="R" throws="R" class="SR">
+    </player>
+    <player name="Nesbitt, Alex" shortname="Nesbitt" code="" uni="18" gp="0" spot="0" pos="" bats="R" throws="R" class="SO">
+    </player>
+    <player name="Rallings, Troy" shortname="Rallings" code="" uni="28" gp="0" spot="0" pos="" bats="R" throws="R" class="SO">
+    </player>
+    <player name="Schmidt, Alex" shortname="Schmidt" code="" uni="27" gp="0" spot="0" pos="" bats="L" throws="R" class="JR">
+    </player>
+    <player name="Sparks, Will" shortname="Sparks" code="" uni="24" gp="0" spot="0" pos="" bats="R" throws="R" class="JR">
+    </player>
+    <player name="Wiggins, Ryan" shortname="Wiggins" code="" uni="38" gp="0" spot="0" pos="" bats="R" throws="R" class="SR">
+    </player>
+    <player name="Wright, Zach" shortname="Wright" code="" uni="35" gp="0" spot="0" pos="" bats="R" throws="R" class="SR">
+    </player>
+  </team>
+  <team vh="H" id="GT" name="Georgia Tech" code="GT" rank="25" neutralgame="Y" record="37-27">
+    <linescore line="2,0,0,0,0,0,0,0,0" runs="2" hits="5" errs="0" lob="8">
+      <lineinn inn="1" score="2"/>
+      <lineinn inn="2" score="0"/>
+      <lineinn inn="3" score="0"/>
+      <lineinn inn="4" score="0"/>
+      <lineinn inn="5" score="0"/>
+      <lineinn inn="6" score="0"/>
+      <lineinn inn="7" score="0"/>
+      <lineinn inn="8" score="0"/>
+      <lineinn inn="9" score="0"/>
+    </linescore>
+    <starters>
+      <starter spot="1" name="Spingola, D" uni="35" pos="cf"/>
+      <starter spot="2" name="Hyde, M" uni="3" pos="2b"/>
+      <starter spot="3" name="Gonzalez, M" uni="14" pos="lf"/>
+      <starter spot="4" name="Smith, T" uni="13" pos="1b"/>
+      <starter spot="5" name="Murray, A" uni="9" pos="dh"/>
+      <starter spot="6" name="Justus, C" uni="15" pos="ss"/>
+      <starter spot="7" name="Gold, B" uni="10" pos="3b"/>
+      <starter spot="8" name="Peurifoy, R" uni="6" pos="rf"/>
+      <starter spot="9" name="Pabst, A" uni="7" pos="c"/>
+      <starter spot="10" name="Grimes, M" uni="25" pos="p"/>
+    </starters>
+    <batords>
+      <batord spot="1" name="Spingola, D" uni="35" pos="cf"/>
+      <batord spot="2" name="Hyde, M" uni="3" pos="2b"/>
+      <batord spot="3" name="Gonzalez, M" uni="14" pos="lf"/>
+      <batord spot="4" name="Smith, T" uni="13" pos="1b"/>
+      <batord spot="5" name="Murray, A" uni="9" pos="dh"/>
+      <batord spot="6" name="Justus, C" uni="15" pos="ss"/>
+      <batord spot="7" name="Gold, B" uni="10" pos="3b"/>
+      <batord spot="8" name="Peurifoy, R" uni="6" pos="rf"/>
+      <batord spot="9" name="Pabst, A" uni="7" pos="c"/>
+      <batord spot="10" name="Parr, B" uni="23" pos="p"/>
+    </batords>
+    <totals>
+      <hitting ab="32" r="2" h="5" rbi="2" double="2" bb="4" so="6" hbp="1" kl="1" gdp="1" hitdp="1" ground="11" fly="9"/>
+      <fielding po="27" a="13" e="0" csb="3"/>
+      <hsitsummary rcherr="1" rchfc="1" ground="11" fly="9" w2outs="1,9" wrunners="2,15" wrbiops="0,8" leadoff="4,9" rbi3rd="2,4" wloaded="0,1" advops="7,18" adv="2" lob="8"/>
+      <pitching ip="9.0" h="8" r="4" er="4" bb="6" so="8" sha="3" bf="38" ab="29" hr="1" wp="1" kl="3" ibb="1" gdp="0" fly="6" ground="10"/>
+      <psitsummary fly="6" ground="10" leadoff="3,9" wrunners="4,11" vsleft="2,7" w2outs="2,10" pitches="141" strikes="0"/>
+    </totals>
+    <player name="Daniel Spingola" shortname="Spingola, D" code="" uni="35" gp="1" gs="1" spot="1" pos="cf" atpos="cf" bats="L" throws="L" class="JR">
+      <hitting ab="5" r="1" h="1" rbi="0" double="1" so="1" ground="1" fly="1"/>
+      <hitseason ab="257" r="45" h="82" rbi="36" so="42" bb="21" double="9" triple="8" hr="3" sb="15" cs="1" sh="5" e="3" avg=".319" vsleft=".338" vsright=".311" w2outs=".321" wrunners=".390" wrbiops=".420" leadoff=".344" rbi3rd=".571" loaded=".500" pinchhit=".000" rbi-2out="24"/>
+      <fielding po="0" a="0" e="0"/>
+      <hsitsummary rcherr="1" ground="1" fly="1" w2outs="0,1" wrunners="0,1" leadoff="2,3" advops="1,1" adv="1"/>
+    </player>
+    <player name="Mott Hyde" shortname="Hyde, M" code="" uni="3" gp="1" gs="1" spot="2" pos="2b" atpos="2b" bats="R" throws="R" class="SR">
+      <hitting ab="4" r="1" h="1" rbi="0" ground="2" fly="1"/>
+      <hitseason ab="248" r="42" h="70" rbi="35" so="51" bb="26" double="12" triple="3" hr="4" sb="10" cs="2" sh="5" sf="6" e="11" avg=".282" vsleft=".339" vsright=".265" w2outs=".158" wrunners=".284" wrbiops=".260" leadoff=".418" rbi3rd=".800" loaded=".750" pinchhit="-" rbi-2out="7"/>
+      <fielding po="5" a="3" e="0"/>
+      <hsitsummary ground="2" fly="1" w2outs="0,1" wrunners="1,3" wrbiops="0,2" advops="2,3" adv="1" lob="1"/>
+    </player>
+    <player name="Matt Gonzalez" shortname="Gonzalez, M" code="" uni="14" gp="1" gs="1" spot="3" pos="lf" atpos="lf" bats="R" throws="R" class="JR">
+      <hitting ab="4" r="0" h="1" rbi="0" double="1" so="1" ground="1" fly="1"/>
+      <hitseason ab="255" r="34" h="80" rbi="37" so="55" bb="20" double="21" triple="1" hr="1" sb="9" cs="8" sh="6" sf="8" e="8" avg=".314" vsleft=".422" vsright=".277" w2outs=".298" wrunners=".333" wrbiops=".314" leadoff=".300" rbi3rd=".810" loaded=".400" pinchhit="-" rbi-2out="9"/>
+      <fielding po="1" a="0" e="0"/>
+      <hsitsummary rchfc="1" ground="1" fly="1" w2outs="1,1" wrunners="0,2" wrbiops="0,2" leadoff="0,1" rbi3rd="0,1" advops="0,2"/>
+    </player>
+    <player name="Thomas Smith" shortname="Smith, T" code="" uni="13" gp="1" gs="1" spot="4" pos="1b" atpos="1b" bats="R" throws="R" class="JR">
+      <hitting ab="3" r="0" h="0" rbi="0" bb="1" ground="1" fly="2"/>
+      <hitseason ab="229" r="35" h="69" rbi="36" so="31" bb="26" double="10" triple="1" hr="2" sb="5" cs="4" sh="9" sf="1" e="2" avg=".301" vsleft=".340" vsright=".291" w2outs=".359" wrunners=".364" wrbiops=".359" leadoff=".397" rbi3rd=".588" loaded=".300" pinchhit="-" rbi-2out="18"/>
+      <fielding po="8" a="1" e="0"/>
+      <hsitsummary ground="1" fly="2" w2outs="0,2" wrunners="0,2" wrbiops="0,1" advops="1,3" lob="2"/>
+    </player>
+    <player name="A.J. Murray" shortname="Murray, A" code="" uni="9" gp="1" gs="1" spot="5" pos="dh" atpos="dh" bats="R" throws="R" class="JR">
+      <hitting ab="1" r="0" h="0" rbi="1" bb="2" hbp="1" ground="1"/>
+      <hitseason ab="223" r="29" h="63" rbi="33" so="52" bb="24" double="16" triple="2" hr="4" sb="7" cs="4" sf="1" e="2" avg=".283" vsleft=".367" vsright=".252" w2outs=".321" wrunners=".243" wrbiops=".274" leadoff=".368" rbi3rd=".438" loaded=".333" pinchhit=".000" rbi-2out="16"/>
+      <fielding po="0" a="0" e="0"/>
+      <hsitsummary ground="1" leadoff="1,2" rbi3rd="1,1" advops="1,1"/>
+    </player>
+    <player name="Connor Justus" shortname="Justus, C" code="" uni="15" gp="1" gs="1" spot="6" pos="ss" atpos="ss" bats="R" throws="R" class="FR">
+      <hitting ab="3" r="0" h="0" rbi="1" bb="1" so="1" ground="2"/>
+      <hitseason ab="209" r="27" h="53" rbi="30" so="43" bb="22" double="6" triple="1" hr="2" sb="1" cs="6" sh="4" e="8" avg=".254" vsleft=".220" vsright=".267" w2outs=".215" wrunners=".225" wrbiops=".250" leadoff=".426" rbi3rd=".650" loaded=".400" pinchhit=".000" rbi-2out="6"/>
+      <fielding po="0" a="3" e="0"/>
+      <hsitsummary ground="2" w2outs="0,1" wrunners="0,2" rbi3rd="1,1" advops="1,3" lob="1"/>
+    </player>
+    <player name="Brandon Gold" shortname="Gold, B" code="" uni="10" gp="1" gs="1" spot="7" pos="3b" atpos="3b" bats="R" throws="R" class="FR">
+      <hitting ab="4" r="0" h="1" rbi="0" gdp="1" hitdp="1" ground="2" fly="1"/>
+      <hitseason ab="183" r="27" h="45" rbi="16" so="44" bb="19" double="12" sh="3" sf="3" e="5" avg=".246" vsleft=".229" vsright=".252" w2outs=".200" wrunners=".202" wrbiops=".182" leadoff=".423" rbi3rd=".400" loaded=".143" pinchhit=".000" rbi-2out="5"/>
+      <fielding po="2" a="3" e="0"/>
+      <hsitsummary ground="2" fly="1" w2outs="0,1" wrunners="1,2" wrbiops="0,1" leadoff="0,1" rbi3rd="0,1" wloaded="0,1" advops="1,2" lob="2"/>
+    </player>
+    <player name="Ryan Peurifoy" shortname="Peurifoy, R" code="" uni="6" gp="1" gs="1" spot="8" pos="rf" atpos="rf" bats="R" throws="R" class="FR">
+      <hitting ab="4" r="0" h="1" rbi="0" so="3" kl="1"/>
+      <hitseason ab="142" r="19" h="42" rbi="11" so="29" bb="11" double="7" triple="3" sb="2" cs="2" sh="10" sf="3" e="2" avg=".296" vsleft=".264" vsright=".315" w2outs=".275" wrunners=".227" wrbiops=".154" leadoff=".406" rbi3rd=".700" loaded=".000" pinchhit=".500" rbi-2out="3"/>
+      <fielding po="1" a="0" e="0"/>
+      <hsitsummary wrunners="0,1" wrbiops="0,1" leadoff="1,2" advops="0,1"/>
+    </player>
+    <player name="Arden Pabst" shortname="Pabst, A" code="" uni="7" gp="1" gs="1" spot="9" pos="c" atpos="c" bats="R" throws="R" class="FR">
+      <hitting ab="4" r="0" h="0" rbi="0" ground="1" fly="3"/>
+      <hitseason ab="120" r="17" h="26" rbi="17" so="26" bb="13" double="3" triple="1" hr="1" sb="1" sh="7" sf="1" e="3" avg=".217" vsleft=".278" vsright=".190" w2outs=".143" wrunners=".258" wrbiops=".286" leadoff=".231" rbi3rd=".667" loaded=".000" pinchhit=".000" rbi-2out="4"/>
+      <fielding po="8" a="3" e="0" csb="3"/>
+      <hsitsummary ground="1" fly="3" w2outs="0,2" wrunners="0,2" wrbiops="0,1" advops="0,2" lob="2"/>
+    </player>
+    <player name="Matthew Grimes" shortname="Grimes, M" code="" uni="25" gp="1" gs="1" spot="10" pos="p" bats="R" throws="R" class="SR">
+      <hitting ab="0" r="0" h="0" rbi="0"/>
+      <hitseason e="1" avg="-" vsleft="-" vsright="-" w2outs="-" wrunners="-" wrbiops="-" leadoff="-" rbi3rd="-" loaded="-" pinchhit="-" rbi-2out="0"/>
+      <fielding po="2" a="0" e="0" csb="2"/>
+      <hsitsummary/>
+      <pitching appear="1" loss="5-3" gs="1" ip="6.0" h="6" r="4" er="4" bb="4" so="5" sha="1" bf="26" ab="21" hr="1" wp="1" kl="2" pitches="93" strikes="56" fly="4" ground="7"/>
+      <pchseason era="4.39" ip="65.2" h="75" r="33" er="32" bb="33" so="36" double="13" triple="2" hr="3" wp="8" hbp="2" win="5" loss="2" save="0" vsleft=".297" vsright=".292" w2outs=".311" wrunners=".310" leadoff=".283"/>
+      <psitsummary fly="4" ground="7" leadoff="1,6" wrunners="3,8" vsleft="2,6" w2outs="2,7" pitches="93" strikes="56"/>
+    </player>
+    <player name="Ben Parr" shortname="Parr, B" code="" uni="23" gp="1" spot="10" sub="1" pos="p" atpos="p" bats="L" throws="L" class="FR">
+      <hitting ab="0" r="0" h="0" rbi="0"/>
+      <hitseason e="1" avg="-" vsleft="-" vsright="-" w2outs="-" wrunners="-" wrbiops="-" leadoff="-" rbi3rd="-" loaded="-" pinchhit="-" rbi-2out="0"/>
+      <fielding po="0" a="0" e="0" csb="1"/>
+      <hsitsummary/>
+      <pitching appear="2" ip="3.0" h="2" r="0" er="0" bb="2" so="3" sha="2" bf="12" ab="8" kl="1" ibb="1" gdp="0" pitches="48" strikes="28" fly="2" ground="3" inheritr="0" inherits="0"/>
+      <pchseason era="2.62" ip="65.1" h="66" r="21" er="19" bb="20" so="52" double="10" hr="3" wp="4" bk="1" hbp="4" win="5" loss="4" save="0" vsleft=".245" vsright=".275" w2outs=".269" wrunners=".255" leadoff=".254"/>
+      <psitsummary fly="2" ground="3" leadoff="2,3" wrunners="1,3" vsleft="0,1" w2outs="0,3" pitches="48" strikes="28"/>
+    </player>
+    <player name="Elliott Barzilli" shortname="Barzilli, E" code="" uni="16" gp="0" spot="0" pos="" bats="R" throws="R" class="FR">
+    </player>
+    <player name="Sam Clay" shortname="Clay, S" code="" uni="11" gp="0" spot="0" pos="" bats="L" throws="L" class="SO">
+    </player>
+    <player name="Mitch Earnest" shortname="Earnest, M" code="" uni="29" gp="0" spot="0" pos="" bats="R" throws="R" class="SR">
+    </player>
+    <player name="Matthew Gorst" shortname="Gorst, M" code="" uni="26" gp="0" spot="0" pos="" bats="R" throws="R" class="FR">
+    </player>
+    <player name="Josh Heddinger" shortname="Heddinger, J" code="" uni="37" gp="0" spot="0" pos="" bats="R" throws="R" class="JR">
+    </player>
+    <player name="Syd Hopkins" shortname="Hopkins, S" code="" uni="8" gp="0" spot="0" pos="" bats="R" throws="R" class="FR">
+    </player>
+    <player name="Keenan Innis" shortname="Innis, K" code="" uni="5" gp="0" spot="0" pos="" bats="L" throws="R" class="FR">
+    </player>
+    <player name="Dusty Isaacs" shortname="Isaacs, D" code="" uni="28" gp="0" spot="0" pos="" bats="R" throws="R" class="SR">
+    </player>
+    <player name="Jared Jillson" shortname="Jillson, J" code="" uni="38" gp="0" spot="0" pos="" bats="R" throws="R" class="SO">
+    </player>
+    <player name="Jonathan King" shortname="King, J" code="" uni="39" gp="0" spot="0" pos="" bats="L" throws="L" class="SO">
+    </player>
+    <player name="Eric Knox" shortname="Knox, E" code="" uni="32" gp="0" spot="0" pos="" bats="R" throws="R" class="FR">
+    </player>
+    <player name="Kyle Leach" shortname="Leach, K" code="" uni="42" gp="0" spot="0" pos="" bats="R" throws="R" class="SO">
+    </player>
+    <player name="Matt Phillips" shortname="Phillips, M" code="" uni="20" gp="0" spot="0" pos="" bats="R" throws="R" class="FR">
+    </player>
+    <player name="Cole Pitts" shortname="Pitts, C" code="" uni="36" gp="0" spot="0" pos="" bats="R" throws="R" class="JR">
+    </player>
+    <player name="Jonathan Roberts" shortname="Roberts, J" code="" uni="27" gp="0" spot="0" pos="" bats="R" throws="R" class="SR">
+    </player>
+    <player name="Zac Ryan" shortname="Ryan, Z" code="" uni="4" gp="0" spot="0" pos="" bats="R" throws="R" class="FR">
+    </player>
+    <player name="Ben Schniederjans" shortname="Schniederjan" code="" uni="30" gp="0" spot="0" pos="" bats="R" throws="R" class="FR">
+    </player>
+    <player name="Tanner Shelton" shortname="Shelton, T" code="" uni="31" gp="0" spot="0" pos="" bats="L" throws="L" class="FR">
+    </player>
+    <player name="Devin Stanton" shortname="Stanton, D" code="" uni="41" gp="0" spot="0" pos="" bats="R" throws="L" class="SR">
+    </player>
+    <player name="Joe Wiseman" shortname="Wiseman, J" code="" uni="24" gp="0" spot="0" pos="" bats="R" throws="R" class="JR">
+    </player>
+    <player name="Grant Wruble" shortname="Wruble, G" code="" uni="2" gp="0" spot="0" pos="" bats="R" throws="R" class="SO">
+    </player>
+  </team>
+  <plays format="summary">
+    <inning number="1">
+      <batting vh="V" id="WASH">
+        <play seq="1" outs="0" batter="Bishop" batprof="R" pitcher="Grimes, M" pchprof="R">
+          <narrative text="Bishop singled to third base (1-1 KB)."/>
+        </play>
+        <play seq="2" outs="0" batter="Ely" batprof="L" pitcher="Grimes, M" pchprof="R" first="Bishop">
+          <narrative text="Ely out at first 3b to 2b, SAC, bunt (0-0); Bishop advanced to second."/>
+        </play>
+        <play seq="3" outs="1" batter="Wolfe" batprof="L" pitcher="Grimes, M" pchprof="R" second="Bishop">
+          <narrative text="Bishop out at third c to 3b, caught stealing."/>
+        </play>
+        <play seq="4" outs="2" batter="Wolfe" batprof="L" pitcher="Grimes, M" pchprof="R">
+          <narrative text="Wolfe grounded out to 2b (1-1 BF)."/>
+        </play>
+        <innsummary r="0" h="1" e="0" lob="0"/>
+      </batting>
+      <batting vh="H" id="GT">
+        <play seq="5" outs="0" batter="Spingola, D" batprof="L" pitcher="Fisher" pchprof="R">
+          <narrative text="Spingola, D reached on a throwing error by ss (1-1 BF)."/>
+        </play>
+        <play seq="6" outs="0" batter="Hyde, M" batprof="R" pitcher="Fisher" pchprof="R" first="Spingola, D">
+          <narrative text="Hyde, M singled, bunt (0-0); Spingola, D advanced to second."/>
+        </play>
+        <play seq="7" outs="0" batter="Gonzalez, M" batprof="R" pitcher="Fisher" pchprof="R" first="Hyde, M" second="Spingola, D">
+          <narrative text="Gonzalez, M popped up to 3b, bunt (0-0)."/>
+        </play>
+        <play seq="8" outs="1" batter="Smith, T" batprof="R" pitcher="Fisher" pchprof="R" first="Hyde, M" second="Spingola, D">
+          <narrative text="Smith, T walked (3-1 BKBBB); Hyde, M advanced to second; Spingola, D advanced to third."/>
+        </play>
+        <play seq="9" outs="1" batter="Murray, A" batprof="R" pitcher="Fisher" pchprof="R" first="Smith, T" second="Hyde, M" third="Spingola, D">
+          <narrative text="Murray, A walked, RBI (3-0 BBBB); Smith, T advanced to second; Hyde, M advanced to third; Spingola, D scored, unearned."/>
+        </play>
+        <play seq="10" outs="1" batter="Justus, C" batprof="R" pitcher="Fisher" pchprof="R" first="Murray, A" second="Smith, T" third="Hyde, M">
+          <narrative text="Justus, C walked, RBI (3-1 BBBKB); Murray, A advanced to second; Smith, T advanced to third; Hyde, M scored."/>
+        </play>
+        <play seq="11" outs="1" batter="Gold, B" batprof="R" pitcher="Fisher" pchprof="R" first="Justus, C" second="Murray, A" third="Smith, T">
+          <narrative text="Gold, B grounded into double play 3b to 1b (1-2 KFBFFF); Murray, A out on the play."/>
+        </play>
+        <innsummary r="2" h="1" e="1" lob="2"/>
+      </batting>
+    </inning>
+    <inning number="2">
+      <batting vh="V" id="WASH">
+        <play seq="12" outs="0" batter="Berry" batprof="R" pitcher="Grimes, M" pchprof="R">
+          <narrative text="Berry fouled out to 1b (0-1 S)."/>
+        </play>
+        <play seq="13" outs="1" batter="Mitsui" batprof="R" pitcher="Grimes, M" pchprof="R">
+          <narrative text="Mitsui struck out swinging (1-2 KSBFS)."/>
+        </play>
+        <play seq="14" outs="2" batter="Pehl" batprof="R" pitcher="Grimes, M" pchprof="R">
+          <narrative text="Pehl singled to center field (0-1 K)."/>
+        </play>
+        <play seq="15" outs="2" batter="C. Baker" batprof="R" pitcher="Grimes, M" pchprof="R" first="Pehl">
+          <narrative text="C. Baker reached on a fielder's choice (0-0); Pehl out at second ss to 2b."/>
+        </play>
+        <innsummary r="0" h="1" e="0" lob="1"/>
+      </batting>
+      <batting vh="H" id="GT">
+        <play seq="16" outs="0" batter="Peurifoy, R" batprof="R" pitcher="Fisher" pchprof="R">
+          <narrative text="Peurifoy, R singled to right field (0-1 K)."/>
+        </play>
+        <play seq="17" outs="0" batter="Pabst, A" batprof="R" pitcher="Fisher" pchprof="R" first="Peurifoy, R">
+          <narrative text="Pabst, A fouled out to rf (1-2 FBFF)."/>
+        </play>
+        <play seq="18" outs="1" batter="Spingola, D" batprof="L" pitcher="Fisher" pchprof="R" first="Peurifoy, R">
+          <narrative text="Spingola, D grounded out to p, bunt (0-1 K); Peurifoy, R advanced to second."/>
+        </play>
+        <play seq="19" outs="2" batter="Hyde, M" batprof="R" pitcher="Fisher" pchprof="R" second="Peurifoy, R">
+          <narrative text="Hyde, M grounded out to ss (0-0)."/>
+        </play>
+        <innsummary r="0" h="1" e="0" lob="1"/>
+      </batting>
+    </inning>
+    <inning number="3">
+      <batting vh="V" id="WASH">
+        <play seq="20" outs="0" batter="Guinn" batprof="R" pitcher="Grimes, M" pchprof="R">
+          <narrative text="Guinn popped up to p, bunt (0-1 K)."/>
+        </play>
+        <play seq="21" outs="1" batter="Forgione" batprof="L" pitcher="Grimes, M" pchprof="R">
+          <narrative text="Forgione grounded out to ss (0-2 KK)."/>
+        </play>
+        <play seq="22" outs="2" batter="Bishop" batprof="R" pitcher="Grimes, M" pchprof="R">
+          <narrative text="Bishop walked (3-1 BBFBB)."/>
+        </play>
+        <play seq="23" outs="2" batter="Ely" batprof="L" pitcher="Grimes, M" pchprof="R" first="Bishop">
+          <narrative text="Ely homered to right field, 2 RBI (3-2 BBBKK); Bishop scored."/>
+        </play>
+        <play seq="24" outs="2" batter="Wolfe" batprof="L" pitcher="Grimes, M" pchprof="R">
+          <narrative text="Wolfe walked (3-2 BBBKFFB)."/>
+        </play>
+        <play seq="25" outs="2" batter="Berry" batprof="R" pitcher="Grimes, M" pchprof="R" first="Wolfe">
+          <narrative text="Wolfe out at second c to 2b, caught stealing."/>
+        </play>
+        <innsummary r="2" h="1" e="0" lob="0"/>
+      </batting>
+      <batting vh="H" id="GT">
+        <play seq="26" outs="0" batter="Gonzalez, M" batprof="R" pitcher="Fisher" pchprof="R">
+          <narrative text="Gonzalez, M struck out swinging (2-2 KBSBS)."/>
+        </play>
+        <play seq="27" outs="1" batter="Smith, T" batprof="R" pitcher="Fisher" pchprof="R">
+          <narrative text="Smith, T grounded out to 3b (0-0)."/>
+        </play>
+        <play seq="28" outs="2" batter="Murray, A" batprof="R" pitcher="Fisher" pchprof="R">
+          <narrative text="Murray, A walked (3-2 BBBKFB)."/>
+        </play>
+        <play seq="29" outs="2" batter="Justus, C" batprof="R" pitcher="Fisher" pchprof="R" first="Murray, A">
+          <narrative text="Justus, C grounded out to 3b (3-1 BKBB)."/>
+        </play>
+        <innsummary r="0" h="0" e="0" lob="1"/>
+      </batting>
+    </inning>
+    <inning number="4">
+      <batting vh="V" id="WASH">
+        <play seq="30" outs="0" batter="Berry" batprof="R" pitcher="Grimes, M" pchprof="R">
+          <narrative text="Berry fouled out to 1b (0-0)."/>
+        </play>
+        <play seq="31" outs="1" batter="Mitsui" batprof="R" pitcher="Grimes, M" pchprof="R">
+          <narrative text="Mitsui struck out swinging (2-2 KBSBS)."/>
+        </play>
+        <play seq="32" outs="2" batter="Pehl" batprof="R" pitcher="Grimes, M" pchprof="R">
+          <narrative text="Pehl struck out looking (3-2 BBBKFK)."/>
+        </play>
+        <innsummary r="0" h="0" e="0" lob="0"/>
+      </batting>
+      <batting vh="H" id="GT">
+        <play seq="33" outs="0" batter="Gold, B" batprof="R" pitcher="Fisher" pchprof="R">
+          <narrative text="Gold, B lined out to p (0-0)."/>
+        </play>
+        <play seq="34" outs="1" batter="Peurifoy, R" batprof="R" pitcher="Fisher" pchprof="R">
+          <narrative text="Peurifoy, R struck out swinging (0-2 KKFS)."/>
+        </play>
+        <play seq="35" outs="2" batter="Pabst, A" batprof="R" pitcher="Fisher" pchprof="R">
+          <narrative text="Pabst, A grounded out to ss (1-1 KB)."/>
+        </play>
+        <innsummary r="0" h="0" e="0" lob="0"/>
+      </batting>
+    </inning>
+    <inning number="5">
+      <batting vh="V" id="WASH">
+        <play seq="36" outs="0" batter="C. Baker" batprof="R" pitcher="Grimes, M" pchprof="R">
+          <narrative text="C. Baker struck out swinging (2-2 BKSBS)."/>
+        </play>
+        <play seq="37" outs="1" batter="Guinn" batprof="R" pitcher="Grimes, M" pchprof="R">
+          <narrative text="Guinn walked (3-2 BBBKKFB)."/>
+        </play>
+        <play seq="38" outs="1" batter="Forgione" batprof="L" pitcher="Grimes, M" pchprof="R" first="Guinn">
+          <narrative text="Guinn advanced to second on a wild pitch."/>
+        </play>
+        <play seq="39" outs="1" batter="Forgione" batprof="L" pitcher="Grimes, M" pchprof="R" second="Guinn">
+          <narrative text="Forgione struck out looking (2-2 SBSFBK)."/>
+        </play>
+        <play seq="40" outs="2" batter="Bishop" batprof="R" pitcher="Grimes, M" pchprof="R" second="Guinn">
+          <narrative text="Bishop grounded out to 2b (1-0 B)."/>
+        </play>
+        <innsummary r="0" h="0" e="0" lob="1"/>
+      </batting>
+      <batting vh="H" id="GT">
+        <play seq="41" outs="0" batter="Spingola, D" batprof="L" pitcher="Fisher" pchprof="R">
+          <narrative text="Spingola, D doubled to right field (1-0 B)."/>
+        </play>
+        <play seq="42" outs="0" batter="Hyde, M" batprof="R" pitcher="Fisher" pchprof="R" second="Spingola, D">
+          <narrative text="Hyde, M flied out to cf (2-0 BB); Spingola, D advanced to third."/>
+        </play>
+        <play seq="43" outs="1" batter="Gonzalez, M" batprof="R" pitcher="Fisher" pchprof="R" third="Spingola, D">
+          <sub vh="V" spot="10" who="Choate" for="Fisher" pos="p"/>
+          <narrative text="Choate to p for Fisher."/>
+        </play>
+        <play seq="44" outs="1" batter="Gonzalez, M" batprof="R" pitcher="Choate" pchprof="R" third="Spingola, D">
+          <narrative text="Gonzalez, M reached on a fielder's choice (1-2 SBF); Spingola, D out at home 3b to c."/>
+        </play>
+        <play seq="45" outs="2" batter="Smith, T" batprof="R" pitcher="Choate" pchprof="R" first="Gonzalez, M">
+          <narrative text="Smith, T fouled out to 1b (2-1 BFB)."/>
+        </play>
+        <innsummary r="0" h="1" e="0" lob="1"/>
+      </batting>
+    </inning>
+    <inning number="6">
+      <batting vh="V" id="WASH">
+        <play seq="46" outs="0" batter="Ely" batprof="L" pitcher="Grimes, M" pchprof="R">
+          <narrative text="Ely grounded out to 2b (0-1 K)."/>
+        </play>
+        <play seq="47" outs="1" batter="Wolfe" batprof="L" pitcher="Grimes, M" pchprof="R">
+          <narrative text="Wolfe singled to second base (1-0 B)."/>
+        </play>
+        <play seq="48" outs="1" batter="Berry" batprof="R" pitcher="Grimes, M" pchprof="R" first="Wolfe">
+          <narrative text="Berry walked (3-2 FKBBFBB); Wolfe advanced to second."/>
+        </play>
+        <play seq="49" outs="1" batter="Mitsui" batprof="R" pitcher="Grimes, M" pchprof="R" first="Berry" second="Wolfe">
+          <narrative text="Mitsui singled through the right side (0-1 S); Berry advanced to second; Wolfe advanced to third."/>
+        </play>
+        <play seq="50" outs="1" batter="Pehl" batprof="R" pitcher="Grimes, M" pchprof="R" first="Mitsui" second="Berry" third="Wolfe">
+          <narrative text="Pehl singled to left field, RBI (1-0 B); Mitsui advanced to second; Berry advanced to third; Wolfe scored."/>
+        </play>
+        <play seq="51" outs="1" batter="C. Baker" batprof="R" pitcher="Grimes, M" pchprof="R" first="Pehl" second="Mitsui" third="Berry">
+          <narrative text="C. Baker out at first 1b to p, RBI (1-1 FB); Pehl advanced to second; Mitsui advanced to third; Berry scored."/>
+        </play>
+        <play seq="52" outs="2" batter="Guinn" batprof="R" pitcher="Grimes, M" pchprof="R" second="Pehl" third="Mitsui">
+          <sub vh="V" spot="8" who="Rei" for="Guinn" pos="ph"/>
+          <narrative text="Rei pinch hit for Guinn."/>
+        </play>
+        <play seq="53" outs="2" batter="Rei" batprof="R" pitcher="Grimes, M" pchprof="R" second="Pehl" third="Mitsui">
+          <narrative text="Rei fouled out to 1b (1-0 B)."/>
+        </play>
+        <innsummary r="2" h="3" e="0" lob="2"/>
+      </batting>
+      <batting vh="H" id="GT">
+        <play seq="54" outs="0" batter="Murray, A" batprof="R" pitcher="Choate" pchprof="R">
+          <sub vh="V" spot="8" who="Rei" pos="c"/>
+          <narrative text="Rei to c."/>
+        </play>
+        <play seq="55" outs="0" batter="Murray, A" batprof="R" pitcher="Choate" pchprof="R">
+          <sub vh="V" spot="10" who="Dunlap" for="Choate" pos="p"/>
+          <narrative text="Dunlap to p for Choate."/>
+        </play>
+        <play seq="56" outs="0" batter="Murray, A" batprof="R" pitcher="Dunlap" pchprof="R">
+          <narrative text="Murray, A hit by pitch (0-0)."/>
+        </play>
+        <play seq="57" outs="0" batter="Justus, C" batprof="R" pitcher="Dunlap" pchprof="R" first="Murray, A">
+          <narrative text="Justus, C struck out swinging (0-2 KKS)."/>
+        </play>
+        <play seq="58" outs="1" batter="Gold, B" batprof="R" pitcher="Dunlap" pchprof="R" first="Murray, A">
+          <narrative text="Gold, B singled to left field (0-0); Murray, A advanced to second."/>
+        </play>
+        <play seq="59" outs="1" batter="Peurifoy, R" batprof="R" pitcher="Dunlap" pchprof="R" first="Gold, B" second="Murray, A">
+          <narrative text="Peurifoy, R struck out swinging (1-2 FKBFFS)."/>
+        </play>
+        <play seq="60" outs="2" batter="Pabst, A" batprof="R" pitcher="Dunlap" pchprof="R" first="Gold, B" second="Murray, A">
+          <narrative text="Pabst, A flied out to cf (2-2 BBFF)."/>
+        </play>
+        <innsummary r="0" h="1" e="0" lob="2"/>
+      </batting>
+    </inning>
+    <inning number="7">
+      <batting vh="V" id="WASH">
+        <play seq="61" outs="0" batter="Forgione" batprof="L" pitcher="Grimes, M" pchprof="R">
+          <sub vh="H" spot="10" who="Parr, B" for="Grimes, M" pos="p"/>
+          <narrative text="Parr, B to p for Grimes, M."/>
+        </play>
+        <play seq="62" outs="0" batter="Forgione" batprof="R" pitcher="Parr, B" pchprof="L">
+          <narrative text="Forgione singled, bunt (2-2 BFKB)."/>
+        </play>
+        <play seq="63" outs="0" batter="Bishop" batprof="R" pitcher="Parr, B" pchprof="L" first="Forgione">
+          <narrative text="Bishop singled through the left side (0-2 FF); Forgione advanced to second."/>
+        </play>
+        <play seq="64" outs="0" batter="Ely" batprof="L" pitcher="Parr, B" pchprof="L" first="Bishop" second="Forgione">
+          <narrative text="Ely out at first 3b to 2b, SAC, bunt (2-0 BB); Bishop advanced to second; Forgione advanced to third."/>
+        </play>
+        <play seq="65" outs="1" batter="Wolfe" batprof="L" pitcher="Parr, B" pchprof="L" second="Bishop" third="Forgione">
+          <narrative text="Wolfe intentionally walked (3-0 BBBB)."/>
+        </play>
+        <play seq="66" outs="1" batter="Berry" batprof="R" pitcher="Parr, B" pchprof="L" first="Wolfe" second="Bishop" third="Forgione">
+          <narrative text="Berry struck out swinging (2-2 KBBSS)."/>
+        </play>
+        <play seq="67" outs="2" batter="Mitsui" batprof="R" pitcher="Parr, B" pchprof="L" first="Wolfe" second="Bishop" third="Forgione">
+          <narrative text="Mitsui flied out to rf (1-2 KSFB)."/>
+        </play>
+        <innsummary r="0" h="2" e="0" lob="3"/>
+      </batting>
+      <batting vh="H" id="GT">
+        <play seq="68" outs="0" batter="Spingola, D" batprof="L" pitcher="Dunlap" pchprof="R">
+          <narrative text="Spingola, D flied out to cf (0-0)."/>
+        </play>
+        <play seq="69" outs="1" batter="Hyde, M" batprof="R" pitcher="Dunlap" pchprof="R">
+          <narrative text="Hyde, M grounded out to ss (0-1 K)."/>
+        </play>
+        <play seq="70" outs="2" batter="Gonzalez, M" batprof="R" pitcher="Dunlap" pchprof="R">
+          <narrative text="Gonzalez, M doubled to left field (3-1 KBBB)."/>
+        </play>
+        <play seq="71" outs="2" batter="Smith, T" batprof="R" pitcher="Dunlap" pchprof="R" second="Gonzalez, M">
+          <narrative text="Smith, T popped up to ss (0-1 K)."/>
+        </play>
+        <innsummary r="0" h="1" e="0" lob="1"/>
+      </batting>
+    </inning>
+    <inning number="8">
+      <batting vh="V" id="WASH">
+        <play seq="72" outs="0" batter="Pehl" batprof="R" pitcher="Parr, B" pchprof="L">
+          <narrative text="Pehl struck out swinging (2-2 BKFBS)."/>
+        </play>
+        <play seq="73" outs="1" batter="C. Baker" batprof="R" pitcher="Parr, B" pchprof="L">
+          <narrative text="C. Baker struck out looking (1-2 KFBFFK)."/>
+        </play>
+        <play seq="74" outs="2" batter="Rei" batprof="R" pitcher="Parr, B" pchprof="L">
+          <narrative text="Rei grounded out to ss (0-0)."/>
+        </play>
+        <innsummary r="0" h="0" e="0" lob="0"/>
+      </batting>
+      <batting vh="H" id="GT">
+        <play seq="75" outs="0" batter="Murray, A" batprof="R" pitcher="Dunlap" pchprof="R">
+          <sub vh="V" spot="6" who="London" for="Pehl" pos="lf"/>
+          <narrative text="London to lf for Pehl."/>
+        </play>
+        <play seq="76" outs="0" batter="Murray, A" batprof="R" pitcher="Dunlap" pchprof="R">
+          <narrative text="Murray, A grounded out to 3b (0-1 S)."/>
+        </play>
+        <play seq="77" outs="1" batter="Justus, C" batprof="R" pitcher="Dunlap" pchprof="R">
+          <narrative text="Justus, C grounded out to 3b (2-0 BB)."/>
+        </play>
+        <play seq="78" outs="2" batter="Gold, B" batprof="R" pitcher="Dunlap" pchprof="R">
+          <narrative text="Gold, B grounded out to 3b (2-1 BBK)."/>
+        </play>
+        <innsummary r="0" h="0" e="0" lob="0"/>
+      </batting>
+    </inning>
+    <inning number="9">
+      <batting vh="V" id="WASH">
+        <play seq="79" outs="0" batter="Forgione" batprof="R" pitcher="Parr, B" pchprof="L">
+          <narrative text="Forgione walked (3-1 BFBBB)."/>
+        </play>
+        <play seq="80" outs="0" batter="Bishop" batprof="R" pitcher="Parr, B" pchprof="L" first="Forgione">
+          <narrative text="Bishop out at first 3b to 2b, SAC, bunt (0-0); Forgione advanced to second."/>
+        </play>
+        <play seq="81" outs="1" batter="Ely" batprof="L" pitcher="Parr, B" pchprof="L" second="Forgione">
+          <narrative text="Forgione out at third c to 3b, caught stealing."/>
+        </play>
+        <play seq="82" outs="2" batter="Ely" batprof="L" pitcher="Parr, B" pchprof="L">
+          <narrative text="Ely flied out to lf (2-2 SKBB)."/>
+        </play>
+        <innsummary r="0" h="0" e="0" lob="0"/>
+      </batting>
+      <batting vh="H" id="GT">
+        <play seq="83" outs="0" batter="Peurifoy, R" batprof="R" pitcher="Dunlap" pchprof="R">
+          <sub vh="V" spot="3" who="Meggs" for="Wolfe" pos="rf"/>
+          <narrative text="Meggs to rf for Wolfe."/>
+        </play>
+        <play seq="84" outs="0" batter="Peurifoy, R" batprof="R" pitcher="Dunlap" pchprof="R">
+          <sub vh="V" spot="3" who="Wolfe" for="Meggs" pos="1b"/>
+          <narrative text="Wolfe to 1b for Meggs."/>
+        </play>
+        <play seq="85" outs="0" batter="Peurifoy, R" batprof="R" pitcher="Dunlap" pchprof="R">
+          <sub vh="V" spot="4" who="Meggs" for="Berry" pos="rf"/>
+          <narrative text="Meggs to rf for Berry."/>
+        </play>
+        <play seq="86" outs="0" batter="Peurifoy, R" batprof="R" pitcher="Dunlap" pchprof="R">
+          <narrative text="Peurifoy, R struck out looking (1-2 BFKK)."/>
+        </play>
+        <play seq="87" outs="1" batter="Pabst, A" batprof="R" pitcher="Dunlap" pchprof="R">
+          <narrative text="Pabst, A fouled out to 1b (1-2 KBF)."/>
+        </play>
+        <play seq="88" outs="2" batter="Spingola, D" batprof="L" pitcher="Dunlap" pchprof="R">
+          <narrative text="Spingola, D struck out swinging (2-2 KFBFFBS)."/>
+        </play>
+        <innsummary r="0" h="0" e="0" lob="0"/>
+      </batting>
+    </inning>
+  </plays>
+  <status complete="Y"/>
+</bsgame>
