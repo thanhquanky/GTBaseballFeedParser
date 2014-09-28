@@ -7,22 +7,19 @@
  */
 
 namespace eStadium\Baseball;
-require_once 'Game.class.php';
-require_once 'GameBuilder.class.php';
-require_once 'XmlFeedParser.class.php';
 
+echo __DIR__;
 
+require_once 'scripts/XmlFeedParser.class.php';
+require_once 'scripts/Configuration.class.php';
+require_once 'scripts/TeamParser.class.php';
+require_once 'scripts/VenueParser.class.php';
+require_once 'scripts/PlayerParser.class.php';
 
-$config = array(
-    'version' => '0.1',
-    'input' => 'geot.xml',
-    'author' => 'Thanh Ky Quan'
-);
-
-$xmlFeed = simplexml_load_file($config['input']);
-$baseballXmlFeedParser = new XmlFeedParser();
-$baseballXmlFeedParser->parse($xmlFeed);
-$baseballGameBuilder = new GameBuilder($baseballXmlFeedParser);
-$baseballGame = $baseballGameBuilder->build();
-var_dump($baseballGame);
-?>
+$xmlFeed = simplexml_load_file('geot.xml');
+$playerParser = new PlayerParser();
+$teamParser = new TeamParser($playerParser);
+$venueParser = new VenueParser();
+$baseballXmlFeedParser = new XmlFeedParser($venueParser, $teamParser);
+$game = $baseballXmlFeedParser->parse($xmlFeed);
+var_dump($game->getTeams()[0]);

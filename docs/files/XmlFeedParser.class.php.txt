@@ -1,0 +1,177 @@
+<?php
+namespace eStadium\Baseball;
+
+/**
+ * Class XmlFeedParser
+ *
+ * This class is for parsing XML Feed from Baseball game
+ *
+ * @package eStadium\Baseball
+ */
+class XmlFeedParser
+{
+    private $feed;
+
+    /**
+     * Parse the feed
+     *
+     * @param string $feed The xml feed that will be parsed
+     *
+     * @return void
+     */
+    public function parse($feed)
+    {
+        $this->feed = $feed;
+    }
+
+    /**
+     * Return gameId from current feed
+     *
+     * @return mixed
+     */
+    public function getGameId()
+    {
+        return intval($this->feed->gametracker->attributes()['gameid']->__toString());
+    }
+
+    /**
+     * Return visitor team name from current feed
+     *
+     * @return mixed
+     */
+    public function getVisitorName()
+    {
+        return $this->feed->venue->attributes()['visname']->__toString();
+    }
+
+    /**
+     * Return home team name from current feed
+     *
+     * @return mixed
+     */
+    public function getHomeName()
+    {
+        return $this->feed->venue->attributes()['homename']->__toString();
+    }
+
+    /**
+     * Return where the baseball game is hosted at
+     *
+     * @return mixed
+     */
+    public function getLocation()
+    {
+        return $this->feed->venue->attributes()['location']->__toString();
+    }
+
+    /**
+     * Return number of innings that has been scheduled for this game
+     *
+     * @return mixed
+     */
+    public function getScheduledInning()
+    {
+        return intval($this->feed->venue->attributes()['schedinn']->__toString());
+    }
+
+    /**
+     * Return the stadium where this game is played at
+     *
+     * @return mixed
+     */
+    public function getStadium()
+    {
+        return $this->feed->venue->attributes()['stadium']->__toString();
+    }
+
+    /**
+     * Return the time when the game is started
+     *
+     * @return mixed
+     */
+    public function getStartTime()
+    {
+        return $this->feed->venue->attributes()['start']->__toString();
+    }
+
+    /**
+     * Return the date when the game is started
+     *
+     * @return mixed
+     */
+    public function getDate()
+    {
+        return $this->feed->venue->attributes()['date']->__toString();
+    }
+
+    /**
+     * Return teams' information
+     * @return ITeam[]
+     */
+    public function getTeams()
+    {
+        $teams = array();
+        foreach ($this->feed->team->attributes() as $teamInfo)
+        {
+            $name = $teamInfo['name'];
+            $code = $teamInfo['code'];
+            $rank = $teamInfo['rank'];
+            $record = $teamInfo['record'];
+            $team = new Team($name, $code, $rank, $record);
+            array_push($teams, $team);
+        }
+        return $teams;
+    }
+
+    /**
+     * Get starting formation
+     * @return IPlayer[]
+     */
+    public function getStarters()
+    {
+        $teamsStarting = array();
+        foreach ($this->feed->team as $team)
+        {
+            $teamCode = $team->code->__toString();
+            $teamStarting = array();
+            foreach ($team->starters->starter->attributes() as $starter)
+            {
+                $name = $starter['name']->__toString();
+                $number = intval($starter['uni']->__toString());
+                $position = $starter['pos']->__toString();
+                $player = new Player($name, $number, $position);
+                array_push($teamStarting, $player);
+            }
+            $teamsStarting[$teamCode] = $teamStarting;
+        }
+        return $teamsStarting;
+    }
+
+    /**
+     * Get starting formation
+     * @return IPlayer[]
+     */
+    public function getBatOrders()
+    {
+        $batOrders = array();
+        foreach ($this->feed->team as $team)
+        {
+            $teamCode = $team->code->__toString();
+            $batOrder = array();
+            foreach ($team->batords->batord->attributes() as $starter)
+            {
+                $name = $starter['name']->__toString();
+                $number = intval($starter['uni']->__toString());
+                $position = $starter['pos']->__toString();
+                $player = new Player($name, $number, $position);
+                array_push($batOrder, $player);
+            }
+            $batOrders[$teamCode] = $batOrder;
+        }
+        return $batOrders;
+    }
+
+
+}
+?>
+

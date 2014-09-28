@@ -1,0 +1,104 @@
+<?php
+
+namespace eStadium\Baseball {
+
+    require_once 'IVenue.interface.php';
+
+    class Venue implements IVenue
+    {
+        private $gameId;
+        private $visitorTeam;
+        private $homeTeam;
+        private $gameDate;
+        private $location;
+        private $stadium;
+        private $startTime;
+        private $scheduledInning;
+
+        public function __construct()
+        {
+
+        }
+
+        public function setGameId($gameId)
+        {
+            $this->gameId = $gameId;
+        }
+
+        public function getGameId()
+        {
+            return $this->gameId;
+        }
+
+        public function getVisitorTeam()
+        {
+            return $this->visitorTeam;
+        }
+
+        public function setVisitorTeam($visitor)
+        {
+            $this->visitorTeam = $visitor;
+        }
+
+        public function getHomeTeam()
+        {
+            return $this->homeTeam;
+        }
+
+        public function setHomeTeam($homeTeam)
+        {
+            $this->homeTeam = $homeTeam;
+        }
+
+        public function getDate()
+        {
+            return $this->date;
+        }
+
+        public function setDate($date)
+        {
+            $this->date = $date;
+        }
+
+        public function getLocation()
+        {
+            return $this->location;
+        }
+
+        public function setLocation($location)
+        {
+            $this->location = $location;
+        }
+
+        public function getStadium()
+        {
+            return $this->stadium;
+        }
+
+        public function setStadium($stadium)
+        {
+            $this->stadium = $stadium;
+        }
+
+        public function getScheduledInning()
+        {
+            return $this->scheduledInning;
+        }
+
+        public function setScheduledInning($scheduledInning)
+        {
+            $this->scheduledInning = $scheduledInning;
+        }
+
+        public function getStartTime()
+        {
+            return $this->startTime;
+        }
+
+        public function setStartTime($startTime)
+        {
+            $this->startTime = $startTime;
+        }
+    }
+}
+

@@ -1,0 +1,64 @@
+<?php
+
+namespace eStadium\Baseball {
+    require_once 'IGame.interface.php';
+
+    /**
+     * Class Game
+     *
+     * This class represents a baseball game
+     *
+     * @package eStadium\Baseball
+     */
+    class Game implements IGame
+    {
+        private $venue;
+        private $homeTeam;
+        private $visitorTeam;
+
+        /**
+         * Constructor
+         *
+         * Initialize with venue, home team and visitor team
+         *
+         * @param IVenue $venue
+         * @param ITeam $homeTeam
+         * @param ITeam $visitorTeam
+         */
+        public function __construct($venue = null, $homeTeam = null, $visitorTeam = null)
+        {
+            $this->venue = $venue;
+            $this->homeTeam = $homeTeam;
+            $this->visitorTeam = $visitorTeam;
+        }
+
+        public function setVenue($venue)
+        {
+            $this->venue = $venue;
+        }
+        public function getVenue()
+        {
+            return $this->venue;
+        }
+
+        public function setHomeTeam($homeTeam)
+        {
+            $this->homeTeam = $homeTeam;
+        }
+        public function getHomeTeam()
+        {
+            return $this->homeTeam;
+        }
+
+        public function setVisitorTeam($visitorTeam)
+        {
+            $this->visitorTeam = $visitorTeam;
+        }
+        public function getVisitorTeam()
+        {
+            return $this->visitorTeam;
+        }
+
+    }
+}
+

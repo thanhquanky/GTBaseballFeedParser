@@ -1,0 +1,76 @@
+<?php
+/**
+ * Created by IntelliJ IDEA.
+ * User: thanhquanky
+ * Date: 9/25/14
+ * Time: 2:57 AM
+ */
+
+namespace eStadium\Baseball {
+
+    require_once 'IGameBuilder.interface.php';
+    require_once 'Game.class.php';
+    require_once 'Venue.class.php';
+
+    /**
+     * Class GameBuilder
+     *
+     * Builder class for Game object
+     *
+     * @package eStadium\Baseball
+     */
+    class GameBuilder implements IGameBuilder
+    {
+        /** @var XmlFeedParser|null A Feed Parser that parse all information about the game */
+        private $feedParser;
+
+        /** @var IGame|null A Game object, which will be built by this GameBuilder*/
+        private $baseballGame;
+
+        /** @var IVenue|null Venue information about this game */
+        private $venue;
+
+        /** @var ITeamFormation[]|null Team formation for both homeTeam and visitorTeam */
+        private $teamsFormation;
+
+        /**
+         * Constructor
+         *
+         * Initialize GameBuilder with feed parser which contains the xml feed
+         *
+         * @param $feedParser
+         */
+        public function __construct($feedParser)
+        {
+            $this->feedParser = $feedParser;
+            $this->baseballGame = new Game();
+            $this->teamsFormation = array();
+        }
+
+        public function setTeams($teams)
+        {
+            $i = 0;
+            foreach ($teams as $team)
+            {
+                $teamCode = $team->getCode();
+                $this->teamsFormation[$i]->setTeam($team);
+                $i++;
+            }
+        }
+
+        public function setVenue($venue)
+        {
+            $this->baseballGame->setVenue($venue);
+        }
+
+        /**
+         * Combines all fields and make a Game object
+         *
+         * @return Game
+         */
+        public function build()
+        {
+            return $this->baseballGame;
+        }
+    }
+}

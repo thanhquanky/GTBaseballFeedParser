@@ -1,0 +1,834 @@
+/home/thanhquanky/workspace/GTBaseballFeedParserclass eStadium\Baseball\Team#16 (7) {
+  private $name =>
+  string(10) "Washington"
+  private $code =>
+  string(4) "WASH"
+  private $rank =>
+  int(14)
+  private $record =>
+  string(7) "41-16-1"
+  private $players =>
+  array(35) {
+    [0] =>
+    class eStadium\Baseball\Player#39 (7) {
+      private $name =>
+      string(14) "Bishop, Braden"
+      private $number =>
+      int(7)
+      private $position =>
+      string(2) "cf"
+      private $spot =>
+      int(1)
+      private $bats =>
+      string(1) "R"
+      private $shortName =>
+      string(6) "Bishop"
+      private $throws =>
+      string(1) "R"
+    }
+    [1] =>
+    class eStadium\Baseball\Player#40 (7) {
+      private $name =>
+      string(11) "Ely, Andrew"
+      private $number =>
+      int(41)
+      private $position =>
+      string(2) "2b"
+      private $spot =>
+      int(2)
+      private $bats =>
+      string(1) "L"
+      private $shortName =>
+      string(3) "Ely"
+      private $throws =>
+      string(1) "R"
+    }
+    [2] =>
+    class eStadium\Baseball\Player#41 (7) {
+      private $name =>
+      string(12) "Wolfe, Brian"
+      private $number =>
+      int(10)
+      private $position =>
+      string(5) "rf/1b"
+      private $spot =>
+      int(3)
+      private $bats =>
+      string(1) "L"
+      private $shortName =>
+      string(5) "Wolfe"
+      private $throws =>
+      string(1) "L"
+    }
+    [3] =>
+    class eStadium\Baseball\Player#42 (7) {
+      private $name =>
+      string(11) "Meggs, Jack"
+      private $number =>
+      int(4)
+      private $position =>
+      string(2) "rf"
+      private $spot =>
+      int(3)
+      private $bats =>
+      string(1) "L"
+      private $shortName =>
+      string(5) "Meggs"
+      private $throws =>
+      string(1) "L"
+    }
+    [4] =>
+    class eStadium\Baseball\Player#43 (7) {
+      private $name =>
+      string(14) "Berry, Branden"
+      private $number =>
+      int(36)
+      private $position =>
+      string(2) "1b"
+      private $spot =>
+      int(4)
+      private $bats =>
+      string(1) "R"
+      private $shortName =>
+      string(5) "Berry"
+      private $throws =>
+      string(1) "R"
+    }
+    [5] =>
+    class eStadium\Baseball\Player#44 (7) {
+      private $name =>
+      string(14) "Mitsui, Trevor"
+      private $number =>
+      int(20)
+      private $position =>
+      string(2) "dh"
+      private $spot =>
+      int(5)
+      private $bats =>
+      string(1) "R"
+      private $shortName =>
+      string(6) "Mitsui"
+      private $throws =>
+      string(1) "R"
+    }
+    [6] =>
+    class eStadium\Baseball\Player#45 (7) {
+      private $name =>
+      string(12) "Pehl, Robert"
+      private $number =>
+      int(17)
+      private $position =>
+      string(2) "lf"
+      private $spot =>
+      int(6)
+      private $bats =>
+      string(1) "R"
+      private $shortName =>
+      string(4) "Pehl"
+      private $throws =>
+      string(1) "R"
+    }
+    [7] =>
+    class eStadium\Baseball\Player#46 (7) {
+      private $name =>
+      string(12) "London, Kyle"
+      private $number =>
+      int(22)
+      private $position =>
+      string(2) "lf"
+      private $spot =>
+      int(6)
+      private $bats =>
+      string(1) "R"
+      private $shortName =>
+      string(6) "London"
+      private $throws =>
+      string(1) "R"
+    }
+    [8] =>
+    class eStadium\Baseball\Player#47 (7) {
+      private $name =>
+      string(12) "Baker, Chris"
+      private $number =>
+      int(6)
+      private $position =>
+      string(2) "3b"
+      private $spot =>
+      int(7)
+      private $bats =>
+      string(1) "R"
+      private $shortName =>
+      string(8) "C. Baker"
+      private $throws =>
+      string(1) "R"
+    }
+    [9] =>
+    class eStadium\Baseball\Player#48 (7) {
+      private $name =>
+      string(13) "Guinn, Parker"
+      private $number =>
+      int(26)
+      private $position =>
+      string(1) "c"
+      private $spot =>
+      int(8)
+      private $bats =>
+      string(1) "R"
+      private $shortName =>
+      string(5) "Guinn"
+      private $throws =>
+      string(1) "R"
+    }
+    [10] =>
+    class eStadium\Baseball\Player#49 (7) {
+      private $name =>
+      string(11) "Rei, Austin"
+      private $number =>
+      int(11)
+      private $position =>
+      string(4) "ph/c"
+      private $spot =>
+      int(8)
+      private $bats =>
+      string(1) "R"
+      private $shortName =>
+      string(3) "Rei"
+      private $throws =>
+      string(1) "R"
+    }
+    [11] =>
+    class eStadium\Baseball\Player#50 (7) {
+      private $name =>
+      string(14) "Forgione, Erik"
+      private $number =>
+      int(9)
+      private $position =>
+      string(2) "ss"
+      private $spot =>
+      int(9)
+      private $bats =>
+      string(1) "B"
+      private $shortName =>
+      string(8) "Forgione"
+      private $throws =>
+      string(1) "R"
+    }
+    [12] =>
+    class eStadium\Baseball\Player#51 (7) {
+      private $name =>
+      string(13) "Fisher, Jared"
+      private $number =>
+      int(30)
+      private $position =>
+      string(1) "p"
+      private $spot =>
+      int(10)
+      private $bats =>
+      string(1) "L"
+      private $shortName =>
+      string(6) "Fisher"
+      private $throws =>
+      string(1) "R"
+    }
+    [13] =>
+    class eStadium\Baseball\Player#52 (7) {
+      private $name =>
+      string(15) "Choate, Brandon"
+      private $number =>
+      int(16)
+      private $position =>
+      string(1) "p"
+      private $spot =>
+      int(10)
+      private $bats =>
+      string(1) "R"
+      private $shortName =>
+      string(6) "Choate"
+      private $throws =>
+      string(1) "R"
+    }
+    [14] =>
+    class eStadium\Baseball\Player#53 (7) {
+      private $name =>
+      string(14) "Dunlap, Trevor"
+      private $number =>
+      int(45)
+      private $position =>
+      string(1) "p"
+      private $spot =>
+      int(10)
+      private $bats =>
+      string(1) "R"
+      private $shortName =>
+      string(6) "Dunlap"
+      private $throws =>
+      string(1) "R"
+    }
+    [15] =>
+    class eStadium\Baseball\Player#54 (7) {
+      private $name =>
+      string(17) "Anderson, Garrett"
+      private $number =>
+      int(3)
+      private $position =>
+      string(0) ""
+      private $spot =>
+      int(0)
+      private $bats =>
+      string(1) "R"
+      private $shortName =>
+      string(8) "Anderson"
+      private $throws =>
+      string(1) "R"
+    }
+    [16] =>
+    class eStadium\Baseball\Player#55 (7) {
+      private $name =>
+      string(13) "Ballowe, Will"
+      private $number =>
+      int(15)
+      private $position =>
+      string(0) ""
+      private $spot =>
+      int(0)
+      private $bats =>
+      string(1) "L"
+      private $shortName =>
+      string(7) "Ballowe"
+      private $throws =>
+      string(1) "L"
+    }
+    [17] =>
+    class eStadium\Baseball\Player#56 (7) {
+      private $name =>
+      string(15) "Bevacqua, Mitch"
+      private $number =>
+      int(23)
+      private $position =>
+      string(0) ""
+      private $spot =>
+      int(0)
+      private $bats =>
+      string(1) "R"
+      private $shortName =>
+      string(8) "Bevacqua"
+      private $throws =>
+      string(1) "R"
+    }
+    [18] =>
+    class eStadium\Baseball\Player#57 (7) {
+      private $name =>
+      string(13) "Brigham, Jeff"
+      private $number =>
+      int(34)
+      private $position =>
+      string(0) ""
+      private $spot =>
+      int(0)
+      private $bats =>
+      string(1) "R"
+      private $shortName =>
+      string(7) "Brigham"
+      private $throws =>
+      string(1) "R"
+    }
+    [19] =>
+    class eStadium\Baseball\Player#58 (7) {
+      private $name =>
+      string(13) "Cushing, Josh"
+      private $number =>
+      int(12)
+      private $position =>
+      string(0) ""
+      private $spot =>
+      int(0)
+      private $bats =>
+      string(1) "R"
+      private $shortName =>
+      string(7) "Cushing"
+      private $throws =>
+      string(1) "R"
+    }
+    [20] =>
+    class eStadium\Baseball\Player#59 (7) {
+      private $name =>
+      string(12) "Davis, Tyler"
+      private $number =>
+      int(19)
+      private $position =>
+      string(0) ""
+      private $spot =>
+      int(0)
+      private $bats =>
+      string(1) "R"
+      private $shortName =>
+      string(5) "Davis"
+      private $throws =>
+      string(1) "R"
+    }
+    [21] =>
+    class eStadium\Baseball\Player#60 (7) {
+      private $name =>
+      string(18) "Fredendall, Joshua"
+      private $number =>
+      int(43)
+      private $position =>
+      string(0) ""
+      private $spot =>
+      int(0)
+      private $bats =>
+      string(1) "R"
+      private $shortName =>
+      string(10) "Fredendall"
+      private $throws =>
+      string(1) "R"
+    }
+    [22] =>
+    class eStadium\Baseball\Player#61 (7) {
+      private $name =>
+      string(10) "Gaul, Mack"
+      private $number =>
+      int(33)
+      private $position =>
+      string(0) ""
+      private $spot =>
+      int(0)
+      private $bats =>
+      string(1) "L"
+      private $shortName =>
+      string(4) "Gaul"
+      private $throws =>
+      string(1) "L"
+    }
+    [23] =>
+    class eStadium\Baseball\Player#62 (7) {
+      private $name =>
+      string(12) "Baker, Henry"
+      private $number =>
+      int(32)
+      private $position =>
+      string(0) ""
+      private $spot =>
+      int(0)
+      private $bats =>
+      string(1) "L"
+      private $shortName =>
+      string(8) "H. Baker"
+      private $throws =>
+      string(1) "L"
+    }
+    [24] =>
+    class eStadium\Baseball\Player#63 (7) {
+      private $name =>
+      string(11) "Hardy, Alex"
+      private $number =>
+      int(51)
+      private $position =>
+      string(0) ""
+      private $spot =>
+      int(0)
+      private $bats =>
+      string(1) "R"
+      private $shortName =>
+      string(5) "Hardy"
+      private $throws =>
+      string(1) "R"
+    }
+    [25] =>
+    class eStadium\Baseball\Player#64 (7) {
+      private $name =>
+      string(19) "Hendrickson, Duncan"
+      private $number =>
+      int(29)
+      private $position =>
+      string(0) ""
+      private $spot =>
+      int(0)
+      private $bats =>
+      string(1) "R"
+      private $shortName =>
+      string(11) "Hendrickson"
+      private $throws =>
+      string(1) "R"
+    }
+    [26] =>
+    class eStadium\Baseball\Player#65 (7) {
+      private $name =>
+      string(15) "Henning, Austin"
+      private $number =>
+      int(37)
+      private $position =>
+      string(0) ""
+      private $spot =>
+      int(0)
+      private $bats =>
+      string(1) "R"
+      private $shortName =>
+      string(7) "Henning"
+      private $throws =>
+      string(1) "R"
+    }
+    [27] =>
+    class eStadium\Baseball\Player#66 (7) {
+      private $name =>
+      string(13) "Jackson, Matt"
+      private $number =>
+      int(2)
+      private $position =>
+      string(0) ""
+      private $spot =>
+      int(0)
+      private $bats =>
+      string(1) "R"
+      private $shortName =>
+      string(7) "Jackson"
+      private $throws =>
+      string(1) "R"
+    }
+    [28] =>
+    class eStadium\Baseball\Player#67 (7) {
+      private $name =>
+      string(13) "Kim, Dae Yang"
+      private $number =>
+      int(25)
+      private $position =>
+      string(0) ""
+      private $spot =>
+      int(0)
+      private $bats =>
+      string(1) "R"
+      private $shortName =>
+      string(3) "Kim"
+      private $throws =>
+      string(1) "R"
+    }
+    [29] =>
+    class eStadium\Baseball\Player#68 (7) {
+      private $name =>
+      string(13) "Nesbitt, Alex"
+      private $number =>
+      int(18)
+      private $position =>
+      string(0) ""
+      private $spot =>
+      int(0)
+      private $bats =>
+      string(1) "R"
+      private $shortName =>
+      string(7) "Nesbitt"
+      private $throws =>
+      string(1) "R"
+    }
+    [30] =>
+    class eStadium\Baseball\Player#69 (7) {
+      private $name =>
+      string(14) "Rallings, Troy"
+      private $number =>
+      int(28)
+      private $position =>
+      string(0) ""
+      private $spot =>
+      int(0)
+      private $bats =>
+      string(1) "R"
+      private $shortName =>
+      string(8) "Rallings"
+      private $throws =>
+      string(1) "R"
+    }
+    [31] =>
+    class eStadium\Baseball\Player#70 (7) {
+      private $name =>
+      string(13) "Schmidt, Alex"
+      private $number =>
+      int(27)
+      private $position =>
+      string(0) ""
+      private $spot =>
+      int(0)
+      private $bats =>
+      string(1) "L"
+      private $shortName =>
+      string(7) "Schmidt"
+      private $throws =>
+      string(1) "R"
+    }
+    [32] =>
+    class eStadium\Baseball\Player#71 (7) {
+      private $name =>
+      string(12) "Sparks, Will"
+      private $number =>
+      int(24)
+      private $position =>
+      string(0) ""
+      private $spot =>
+      int(0)
+      private $bats =>
+      string(1) "R"
+      private $shortName =>
+      string(6) "Sparks"
+      private $throws =>
+      string(1) "R"
+    }
+    [33] =>
+    class eStadium\Baseball\Player#72 (7) {
+      private $name =>
+      string(13) "Wiggins, Ryan"
+      private $number =>
+      int(38)
+      private $position =>
+      string(0) ""
+      private $spot =>
+      int(0)
+      private $bats =>
+      string(1) "R"
+      private $shortName =>
+      string(7) "Wiggins"
+      private $throws =>
+      string(1) "R"
+    }
+    [34] =>
+    class eStadium\Baseball\Player#73 (7) {
+      private $name =>
+      string(12) "Wright, Zach"
+      private $number =>
+      int(35)
+      private $position =>
+      string(0) ""
+      private $spot =>
+      int(0)
+      private $bats =>
+      string(1) "R"
+      private $shortName =>
+      string(6) "Wright"
+      private $throws =>
+      string(1) "R"
+    }
+  }
+  private $starters =>
+  array(10) {
+    [0] =>
+    class eStadium\Baseball\PlayerFormation#19 (4) {
+      private $spot =>
+      int(1)
+      private $name =>
+      string(6) "Bishop"
+      private $number =>
+      int(7)
+      private $position =>
+      string(2) "cf"
+    }
+    [1] =>
+    class eStadium\Baseball\PlayerFormation#20 (4) {
+      private $spot =>
+      int(2)
+      private $name =>
+      string(3) "Ely"
+      private $number =>
+      int(41)
+      private $position =>
+      string(2) "2b"
+    }
+    [2] =>
+    class eStadium\Baseball\PlayerFormation#21 (4) {
+      private $spot =>
+      int(3)
+      private $name =>
+      string(5) "Wolfe"
+      private $number =>
+      int(10)
+      private $position =>
+      string(2) "rf"
+    }
+    [3] =>
+    class eStadium\Baseball\PlayerFormation#22 (4) {
+      private $spot =>
+      int(4)
+      private $name =>
+      string(5) "Berry"
+      private $number =>
+      int(36)
+      private $position =>
+      string(2) "1b"
+    }
+    [4] =>
+    class eStadium\Baseball\PlayerFormation#23 (4) {
+      private $spot =>
+      int(5)
+      private $name =>
+      string(6) "Mitsui"
+      private $number =>
+      int(20)
+      private $position =>
+      string(2) "dh"
+    }
+    [5] =>
+    class eStadium\Baseball\PlayerFormation#24 (4) {
+      private $spot =>
+      int(6)
+      private $name =>
+      string(4) "Pehl"
+      private $number =>
+      int(17)
+      private $position =>
+      string(2) "lf"
+    }
+    [6] =>
+    class eStadium\Baseball\PlayerFormation#25 (4) {
+      private $spot =>
+      int(7)
+      private $name =>
+      string(8) "C. Baker"
+      private $number =>
+      int(6)
+      private $position =>
+      string(2) "3b"
+    }
+    [7] =>
+    class eStadium\Baseball\PlayerFormation#26 (4) {
+      private $spot =>
+      int(8)
+      private $name =>
+      string(5) "Guinn"
+      private $number =>
+      int(26)
+      private $position =>
+      string(1) "c"
+    }
+    [8] =>
+    class eStadium\Baseball\PlayerFormation#27 (4) {
+      private $spot =>
+      int(9)
+      private $name =>
+      string(8) "Forgione"
+      private $number =>
+      int(9)
+      private $position =>
+      string(2) "ss"
+    }
+    [9] =>
+    class eStadium\Baseball\PlayerFormation#28 (4) {
+      private $spot =>
+      int(10)
+      private $name =>
+      string(6) "Fisher"
+      private $number =>
+      int(30)
+      private $position =>
+      string(1) "p"
+    }
+  }
+  private $batOrders =>
+  array(10) {
+    [0] =>
+    class eStadium\Baseball\PlayerFormation#29 (4) {
+      private $spot =>
+      int(1)
+      private $name =>
+      string(6) "Bishop"
+      private $number =>
+      int(7)
+      private $position =>
+      string(2) "cf"
+    }
+    [1] =>
+    class eStadium\Baseball\PlayerFormation#30 (4) {
+      private $spot =>
+      int(2)
+      private $name =>
+      string(3) "Ely"
+      private $number =>
+      int(41)
+      private $position =>
+      string(2) "2b"
+    }
+    [2] =>
+    class eStadium\Baseball\PlayerFormation#31 (4) {
+      private $spot =>
+      int(3)
+      private $name =>
+      string(5) "Wolfe"
+      private $number =>
+      int(10)
+      private $position =>
+      string(2) "1b"
+    }
+    [3] =>
+    class eStadium\Baseball\PlayerFormation#32 (4) {
+      private $spot =>
+      int(4)
+      private $name =>
+      string(5) "Meggs"
+      private $number =>
+      int(4)
+      private $position =>
+      string(2) "rf"
+    }
+    [4] =>
+    class eStadium\Baseball\PlayerFormation#33 (4) {
+      private $spot =>
+      int(5)
+      private $name =>
+      string(6) "Mitsui"
+      private $number =>
+      int(20)
+      private $position =>
+      string(2) "dh"
+    }
+    [5] =>
+    class eStadium\Baseball\PlayerFormation#34 (4) {
+      private $spot =>
+      int(6)
+      private $name =>
+      string(6) "London"
+      private $number =>
+      int(22)
+      private $position =>
+      string(2) "lf"
+    }
+    [6] =>
+    class eStadium\Baseball\PlayerFormation#35 (4) {
+      private $spot =>
+      int(7)
+      private $name =>
+      string(8) "C. Baker"
+      private $number =>
+      int(6)
+      private $position =>
+      string(2) "3b"
+    }
+    [7] =>
+    class eStadium\Baseball\PlayerFormation#36 (4) {
+      private $spot =>
+      int(8)
+      private $name =>
+      string(3) "Rei"
+      private $number =>
+      int(11)
+      private $position =>
+      string(1) "c"
+    }
+    [8] =>
+    class eStadium\Baseball\PlayerFormation#37 (4) {
+      private $spot =>
+      int(9)
+      private $name =>
+      string(8) "Forgione"
+      private $number =>
+      int(9)
+      private $position =>
+      string(2) "ss"
+    }
+    [9] =>
+    class eStadium\Baseball\PlayerFormation#38 (4) {
+      private $spot =>
+      int(10)
+      private $name =>
+      string(6) "Dunlap"
+      private $number =>
+      int(45)
+      private $position =>
+      string(1) "p"
+    }
+  }
+}

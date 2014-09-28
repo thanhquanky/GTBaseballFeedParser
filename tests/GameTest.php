@@ -1,25 +1,18 @@
 <?php
 
-require_once 'Game.class.php';
-require_once 'Venue.class.php';
-require_once 'TeamFormation.class.php';
+require_once 'scripts/Game.class.php';
+require_once 'scripts/Venue.class.php';
+require_once 'scripts/TeamFormation.class.php';
+
 
 class GameTest extends PHPUnit_Framework_TestCase
 {
     /**
-     * @dataProvider baseballGameProvider
+     * @dataProvider venueLocationProvider
      */
-    public function testGameCanSetVenue($baseballGame, $expected)
+    public function testVenueLocation($venue, $expected)
     {
-        $this->assertEquals($expected, $baseballGame->getVenue());
-    }
-
-    /**
-     * @dataProvider venueGameIdProvider
-     */
-    public function testVenueGameId($venue, $expected)
-    {
-        $this->assertEquals($expected, $venue->getGameId());
+        $this->assertEquals($expected, $venue->getLocation());
     }
 
     /**
@@ -30,53 +23,34 @@ class GameTest extends PHPUnit_Framework_TestCase
         $this->assertEquals($expected, $venue->getStadium());
     }
 
-    public function venueGameIdProvider()
-    {
-        $venue1 = new \eStadium\Baseball\Venue();
-        $venue1->setGameId(1);
-
-        $venue2 = new \eStadium\Baseball\Venue();
-        $venue2->setGameId(2);
-
-        return array(
-            array($venue1, 1),
-            array($venue2, 2)
-        );
-    }
-
     public function venueStadiumProvider()
     {
-        $venue1 = new \eStadium\Baseball\Venue();
-        $venue1->setStadium('Swayze Field');
-
-        $venue2 = new \eStadium\Baseball\Venue();
-        $venue2->setStadium('Boddy Dodd');
-
+        $venue = $this->venueProvider();
         return array(
-            array($venue1, 'Swayze Field'),
-            array($venue2, 'Boddy Dodd')
+            array($venue, 'Swayze Field')
         );
     }
 
-    public function baseballGameProvider()
+    public function venueLocationProvider()
     {
-        $baseballGame1 = new \eStadium\Baseball\Game();
-        $venue1 = new \eStadium\Baseball\Venue();
-        $venue1->setGameId(1);
-        $venue1->setStadium('Swayze Field');
-
-        $baseballGame1->setVenue($venue1);
-
-        $baseballGame2 = new \eStadium\Baseball\Game();
-        $venue2 = new \eStadium\Baseball\Venue();
-        $venue2->setGameId(2);
-        $venue2->setStadium('Bobby Dodd');
-        $baseballGame2->setVenue($venue2);
-
+        $venue = $this->venueProvider();
         return array(
-          array($baseballGame1, $venue1),
-          array($baseballGame2, $venue2)
+            array($venue, 'Oxford, Miss.')
         );
+    }
+
+    public function venueProvider()
+    {
+        $stadium = 'Swayze Field';
+        $location = 'Oxford, Miss.';
+        $visitorName = 'Washington';
+        $homeName = 'Georgia Tech';
+        $gameDate = '6/1/2014';
+        $startTime = '7:07 pm';
+        $scheduledInning = 9;
+        $venue = new \eStadium\Baseball\Venue($homeName, $visitorName, $location, $stadium, $gameDate, $startTime, $scheduledInning);
+
+        return $venue;
     }
 
 }

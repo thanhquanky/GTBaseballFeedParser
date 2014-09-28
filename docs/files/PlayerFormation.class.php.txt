@@ -1,0 +1,50 @@
+<?php
+/**
+ * Created by IntelliJ IDEA.
+ * User: thanhquanky
+ * Date: 9/26/14
+ * Time: 4:03 AM
+ */
+
+namespace eStadium\Baseball;
+
+require_once 'Player.class.php';
+/*
+ * Class PlayerFormation
+ * @package eStadium\Baseball
+ */
+class PlayerFormation extends Player{
+    private $spot;
+    private $player;
+
+    /**
+     * Construction
+     *
+     * @param IPlayer $player
+     * @param int $spot
+     */
+    public function __construct($player, $spot)
+    {
+        $this->player = $player;
+        $this->spot = $spot;
+    }
+
+    /**
+     * Get player's spot
+     * @return int
+     */
+    public function getSpot()
+    {
+        return $this->spot;
+    }
+
+    /**
+     * Set spot
+     *
+     * @param int $spot
+     */
+    public function setSpot($spot)
+    {
+        $this->setSpot($spot);
+    }
+} 
